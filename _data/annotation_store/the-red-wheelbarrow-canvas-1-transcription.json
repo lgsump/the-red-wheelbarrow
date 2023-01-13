@@ -1,0 +1,74 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://lgsump.github.io/the-red-wheelbarrow/annotations/the-red-wheelbarrow-canvas-1-transcription.json",
+  "type": "AnnotationPage",
+  "label": "Transcription",
+  "items": [
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "id": "the-red-wheelbarrow-canvas-1-transcription-annotation-0.json",
+      "type": "Annotation",
+      "motivation": [
+        "supplementing",
+        "commenting"
+      ],
+      "body": {
+        "type": "TextualBody",
+        "value": "\"The Red Wheelbarrow\"",
+        "format": "text/plain",
+        "purpose": "commenting"
+      },
+      "target": {
+        "source": "https://lgsump.github.io/the-red-wheelbarrow/the-red-wheelbarrow/canvas-1/canvas",
+        "selector": {
+          "type": "RangeSelector",
+          "t": "0,3"
+        }
+      }
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "id": "the-red-wheelbarrow-canvas-1-transcription-annotation-1.json",
+      "type": "Annotation",
+      "motivation": [
+        "supplementing",
+        "commenting"
+      ],
+      "body": {
+        "type": "TextualBody",
+        "value": "\"So much depends upon the red wheelbarrow\"",
+        "format": "text/plain",
+        "purpose": "commenting"
+      },
+      "target": {
+        "source": "https://lgsump.github.io/the-red-wheelbarrow/the-red-wheelbarrow/canvas-1/canvas",
+        "selector": {
+          "type": "RangeSelector",
+          "t": "3,6"
+        }
+      }
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "id": "the-red-wheelbarrow-canvas-1-transcription-annotation-2.json",
+      "type": "Annotation",
+      "motivation": [
+        "supplementing",
+        "commenting"
+      ],
+      "body": {
+        "type": "TextualBody",
+        "value": "\"Glazed with rainwater beside the white chickens\"",
+        "format": "text/plain",
+        "purpose": "commenting"
+      },
+      "target": {
+        "source": "https://lgsump.github.io/the-red-wheelbarrow/the-red-wheelbarrow/canvas-1/canvas",
+        "selector": {
+          "type": "RangeSelector",
+          "t": "6,11"
+        }
+      }
+    }
+  ]
+}

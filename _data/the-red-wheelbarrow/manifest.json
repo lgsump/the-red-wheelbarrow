@@ -23,6 +23,16 @@
         "id": "https://lgsump.github.io/the-red-wheelbarrow/the-red-wheelbarrow/canvas-1/canvas",
         "type": "Canvas",
         "duration": 11,
+        "annotations": [
+          
+          {
+            "type": "AnnotationPage",
+            "id": "https://lgsump.github.io/the-red-wheelbarrow/annotations/the-red-wheelbarrow-canvas-1-transcription.json",
+            "label": {
+              "none": ["Transcription"]
+            }
+          }
+        ],
         "items": [
           {
             "id": "https://lgsump.github.io/the-red-wheelbarrow/the-red-wheelbarrow/canvas-1/paintings",
