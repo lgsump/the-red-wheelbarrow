@@ -1,0 +1,48 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://lgsump.github.io/the-red-wheelbarrow/the-red-wheelbarrow/manifest.json",
+    "type": "Manifest",
+    "label": { "en": [ "The Red Wheelbarrow" ] },
+    "homepage": [
+      {
+        "id": "https://writing.upenn.edu/pennsound/",
+        "type": "Text",
+        "label": { "en": [ "The Red Wheelbarrow" ] },
+        "format": "text/html"
+      }
+    ],
+    "provider": [
+      {
+        "id": "https://writing.upenn.edu/pennsound/",
+        "type": "Agent",
+        "label": { "en": [ "Pennsound" ] }
+      }
+    ],
+    "items": [
+      {
+        "id": "https://lgsump.github.io/the-red-wheelbarrow/the-red-wheelbarrow/canvas-1/canvas",
+        "type": "Canvas",
+        "duration": 11,
+        "items": [
+          {
+            "id": "https://lgsump.github.io/the-red-wheelbarrow/the-red-wheelbarrow/canvas-1/paintings",
+            "type": "AnnotationPage",
+            "items": [
+              {
+                "id": "https://lgsump.github.io/the-red-wheelbarrow/the-red-wheelbarrow/canvas-1/painting",
+                "type": "Annotation",
+                "motivation": "painting",
+                "body": {
+                  "id": "https://media.sas.upenn.edu/pennsound/authors/Williams-WC/01_Columbia-Univ_01-09-42/Williams-WC_01_The-Red-Wheelbarrow_Columbia-Univ_01-09-42.mp3",
+                  "type": "Sound",
+                  "format": "audio/mp3",
+                    "duration": 11
+                },
+                "target": "https://lgsump.github.io/the-red-wheelbarrow/the-red-wheelbarrow/canvas-1/canvas"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+} 
